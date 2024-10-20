@@ -1,0 +1,84 @@
+{
+	"professores": [
+		{
+			"id": 1,
+			"nome": "Cordel Alexandre",
+			"disciplina": "Computação em Nuvem",
+			"periodo": "3º Noite",
+			"sexo": "Masculino",
+			"campus": "Recife"
+		},
+		{
+			"id": 2,
+			"nome": "Joana Silva",
+			"disciplina": "Inteligência Artificial",
+			"periodo": "2º Manhã",
+			"sexo": "Feminino",
+			"campus": "Caruaru"
+		},
+		{
+			"id": 3,
+			"nome": "Marcos Oliveira",
+			"disciplina": "Banco de Dados",
+			"periodo": "4º Tarde",
+			"sexo": "Masculino",
+			"campus": "Recife"
+		},
+		{
+			"id": 4,
+			"nome": "Carla Mendes",
+			"disciplina": "Desenvolvimento Web",
+			"periodo": "1º Noite",
+			"sexo": "Feminino",
+			"campus": "Caruaru"
+		},
+		{
+			"id": 5,
+			"nome": "Ricardo Santos",
+			"disciplina": "Redes de Computadores",
+			"periodo": "5º Noite",
+			"sexo": "Masculino",
+			"campus": "Recife"
+		},
+		{
+			"id": 6,
+			"nome": "Ana Souza",
+			"disciplina": "Programação Orientada a Objetos",
+			"periodo": "3º Tarde",
+			"sexo": "Feminino",
+			"campus": "Caruaru"
+		},
+		{
+			"id": 7,
+			"nome": "Pedro Almeida",
+			"disciplina": "Segurança da Informação",
+			"periodo": "6º Noite",
+			"sexo": "Masculino",
+			"campus": "Recife"
+		},
+		{
+			"id": 8,
+			"nome": "Mariana Costa",
+			"disciplina": "Engenharia de Software",
+			"periodo": "4º Manhã",
+			"sexo": "Feminino",
+			"campus": "Caruaru"
+		},
+		{
+			"id": 9,
+			"nome": "Fernando Xavier",
+			"disciplina": "Sistemas Operacionais",
+			"periodo": "2º Noite",
+			"sexo": "Masculino",
+			"campus": "Recife"
+		},
+		{
+			"id": 10,
+			"nome": "Camila Pereira",
+			"disciplina": "Linguagens de Programação",
+			"periodo": "5º Tarde",
+			"sexo": "Feminino",
+			"campus": "Caruaru"
+		}
+	]
+}

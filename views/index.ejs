@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu App</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+  </head>
+  <body>
+
+    <table>
+      <thead>
+        <tr>
+          <%for(let col of cols){%>
+            <th><%=col%></th>
+          <%}%>
+            <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%for(let [index, professor] of professores.entries()){%>
+          <tr>
+            <%for(let prop in professor){%>
+               <td><%= professor[prop] %></td>
+             <%}%>
+               <td>
+                 <a onclick="alert(<%= index%>)" class="waves-effect waves-light btn">Editar</a>
+                 <a onclick="alert(<%= index%>)" class="waves-effect waves-light btn">Excluir</a>
+               </td>
+          </tr>
+       <%}%>
+      </tbody>
+    </table>
+    
+    <br>
+    <br>
+    
+    <h1>Lista de Professores</h1>
+    <% for(let professor of professores){%>
+     <%for(let prop in professor){%>
+       <span>Nome: <%= professor[prop] %></span>
+       <br>
+     <%}%>
+       <br>
+       <hr>
+    <%}%>
+  </body>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
